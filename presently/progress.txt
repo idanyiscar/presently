@@ -1,0 +1,33 @@
+שלב נוכחי:
+✔ UI עובד
+✔ Questionnaire עובד
+✔ Payment (fake) עובד
+✔ Tracking עובד
+✔ Admin Panel עובד
+✔ Twilio מותקן
+✔ API לשליחת SMS מוכן
+✔ .env.local קיים
+✔ מספר Twilio נקנה
+✔ Verified Caller ID למספר הישראלי קיים
+❗ צריך לבדוק שליחת הודעות בפועל
+
+קוד חזרה:
+PRESENTLY-WHATSAPP-STEP
+
+מסקנה טכנית:
+✔ הקוד שולח בקשה לשירות ההודעות
+✔ ה-Authentication תוקן
+✔ כרגע SMS לישראל נחסם בגלל מגבלת המספר:
+"Can send/receive sms to domestic numbers only"
+
+מה החלטנו:
+➡️ לשקול מעבר ל-WhatsApp במקום SMS
+➡️ לא להיתקע על SMS כרגע
+
+השלב הבא:
+1. לבדוק/להגדיר Twilio WhatsApp Sandbox
+2. להחליף את send-sms ל-send-whatsapp
+3. לשלוח הודעת WhatsApp למקבל במקום SMS
+
+כשאני חוזר ל-ChatGPT לכתוב:
+"ממשיכים עם PRESENTLY-WHATSAPP-STEP"
